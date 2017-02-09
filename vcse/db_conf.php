@@ -1,0 +1,19 @@
+<?php
+defined('VCEXE') or die;
+
+// ÏÀÐÀÌÅÒÐÛ ÏÎÄÊËÞ×ÅÍÈß Ê ÑÓÁÄ
+// òèï ÑÓÁÄ
+define("VCWE_DB_TYPE", "mysql");
+// ëîãèí ÑÓÁÄ
+define("VCWE_DB_LOGIN", "root");
+// ïàðîëü ÑÓÁÄ
+define("VCWE_DB_PASSWORD", "");
+// õîñò ÑÓÁÄ
+define("VCWE_DB_HOST", "localhost");
+// íàçâàíèå ÁÄ
+define("VCWE_DB_NAME", "spaceresearcher");
+// êîäèðîâêà äàííûõ ÁÄ (utf8 - false)
+define("VCWE_DB_ENCODE", "cp1251");
+// êîäèðîâêà äàííûõ xml (UTF-8 - false)
+define("VCWE_DB_DATA_ENCODE", "windows-1251");
+?>
