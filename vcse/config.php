@@ -4,6 +4,8 @@ defined('VCEXE') or die;
 require_once($_SERVER['DOCUMENT_ROOT'].'/space-researcher/vcse/db_conf.php');
 require_once($_SERVER['DOCUMENT_ROOT'].'/space-researcher/vcfunc/link.php');
 
+require_once($_SERVER['DOCUMENT_ROOT'].'/space-researcher/vcse/setup.php');
+
 require_once($_SERVER['DOCUMENT_ROOT'].'/space-researcher/vcse/get_browser.php');
 
 require_once($_SERVER['DOCUMENT_ROOT'].'/space-researcher/vcse/lang.php');

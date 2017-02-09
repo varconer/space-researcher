@@ -6,6 +6,7 @@ $showForm = true;
 if (isset($_POST['player']) && isset($_POST['pass']) && isset($_POST['pass2'])) {
 	require_once($_SERVER['DOCUMENT_ROOT'].'/space-researcher/vcse/db_conf.php');
 	require_once($_SERVER['DOCUMENT_ROOT'].'/space-researcher/vcfunc/link.php');
+	require_once($_SERVER['DOCUMENT_ROOT'].'/space-researcher/vcse/setup.php');
 	$showForm = false;
 	// проверка на уникальность имени
 	$dbResPlayer = db_work("SELECT `player` FROM `players` WHERE `player`='".$_POST['player']."'");
